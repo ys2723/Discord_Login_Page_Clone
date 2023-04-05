@@ -1,1 +1,95 @@
+.grey-big-box {
+    background-color: #36393e;
+    border-radius: 5px;
+    align-self: center;
+    margin: auto;
+    width: 785px;
+    height: 450px;
+    margin: 150px 440px 100px 370px;
+    font-family: uni 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 
+}
+
+.go-back {
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+.welcome-back-heading {
+    color: aliceblue;
+    margin-left: 160px;
+    font-size: 25px;
+}
+
+.we-excited-text {
+    color: aliceblue;
+    margin-left: 135px;
+    font-size: 17px;
+}
+
+.red-ash{
+    color: red;
+}
+
+.entering-email-or-phone-number{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.input-email-or-phone-number{
+    width: 420px;
+    height: 30px;
+    background-color: #282b30;
+}
+
+ .entering-password{ 
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+.input-password{
+    width: 420px;
+    height: 30px;
+    background-color: #282b30;
+}
+
+.login-button{
+    width: 430px;
+    height: 45px;
+    margin-left: 30px;
+    background-color: #5865f2;
+}
+
+.forgot-password{
+    margin-left: 30px;
+}
+
+.need-an-account{
+    margin-left: 30px;
+    color: rgba(240, 248, 255, 0.733);
+
+}
+
+.right-section{
+    color: aliceblue;
+    margin-top: -340px;
+    margin-left: 530px;
+}
+
+.login-with-qr-code{
+    font-size: 25px;
+    
+}
+
+.image{
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.scan-to-login-text{
+    font-size: 17px;
+    color: rgba(240, 248, 255, 0.733);
+}
