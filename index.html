@@ -9,17 +9,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <div class = "grey-big-box">
+
+<!-- LEFT SECTION ---------------------------------------------------------------------------------------------------------- also LEFT SECTION hehe -->
     <p class = "go-back"> &lt Go Back</p>
-    <p class = "welcome-back-heading"> Welcome back!</p>
+    <p class = "welcome-back-heading"> <b>Welcome back!</b></p>
     <p class = "we-excited-text">We're excited to see you again!</p>
 
-       <!-- For entering Username -->
-       <div class = "entering-username">
-               <label for = "Username"> Username: </label>
+
+
+       <!-- For entering Email of PHone Number -->
+       <div class = "entering-email-or-phone-number">
+               <label for = "Username"> EMAIL OR PHONE NUMBER <nobr class = "red-ash">*</nobr> </label>
             <br>
-               <input type = "text" id = "Username">
+               <input type = "text" id = "Username" class = "input-email-or-phone-number">
        </div>
 
 
@@ -28,16 +31,16 @@
 
 
        <!-- For entering Password -->
-       <div class = "entering-username">
-               <label for = "Password"> Password: </label>
+       <div class = "entering-password">
+               <label for = "Password"> PASSWORD <nobr class = "red-ash">*</nobr> </label>
             <br>
-               <input type = "text" id = "Password">
+               <input type = "text" id = "Password" class = "input-password">
        </div>
 
 
        <!-- For 'Forgot your password?'-->
        <nav class = "forgot-password">
-        <a href = "https://linktr.ee/tripathi.yash"> Forgot your Password?</a>
+        <a href = "https://linktr.ee/tripathi.yash" style="color: #5865f2"> Forgot your Password?</a>
        </nav>
 
        <br>
@@ -46,20 +49,25 @@
        <!-- Login Button -->
        <button class = "login-button"> Log In</button>
        <!-- need and accound register section -->
-       <p> Need and account? <a  href = "https://linktr.ee/tripathi.yash"> Register </a> </p>
+       <p class = "need-an-account"> Need an account? <a  href = "https://linktr.ee/tripathi.yash" style="color: #5865f2"> Register </a> </p>
 
+       
+       
+<!-- RIGHT SECTION --------------------------------------------------------------------------------------------------------- also RIGHT SECTION hehe -->
 
+       
        <!--'Login with QR code' SECTIONNNNNNNNNN -->
        <!-- This is the right side of the BIG GREY BOX -->
-
-       <img src = "#link" alt = "QR Code"> 
+       <section class = "right-section">
+       <img class = "image"
+            src = "https://cdn.discordapp.com/attachments/806881514389766184/1093240273129185370/qrcode_55216448_699475e2f9f5ddbc7c72df8b2dbf7f23.png" 
+            alt = "QR Code"> 
        <br> 
        
-
        <p class = "login-with-qr-code"> Login with QR Code</p>
 
-       <p> Scan this with the Discord mobile <br> app to Login instantly.</p>
-
+       <p class = "scan-to-login-text"> Scan this with the <b>Discord mobile </b> <br> <b>app</b> to Login instantly.</p>
+       </section>
 </div>
 
   <!--<img src = "https://techcrunch.com/wp-content/uploads/2021/05/Discord_IAP_KeyVisuals_Header_02.jpeg?w=1024" alt = "Discord Login Page Background" width = "100%" height = "100%"> -->
