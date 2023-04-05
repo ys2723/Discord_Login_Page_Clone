@@ -1,54 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Discord Login Clone</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-
-<body>
-    <div class = "position">
-        <form class = "container"> 
-            <div class = "centering-wrapper">
-                <div class = "section 1 text-center">
-                    <div clas = "primary header">Welcome back!</div>
-                    <div class = "secondary-header"> We're so excited to see you again!</div>
-                    <div class = "input-position">
-                        
-                        
-
-                        <!-- The next div is for Email typing :)-->
-                        <div class = "form-group">
-                            <h5 class = "input-placeholder" id = "email-txt">
-                                Email<spam class = "error-message" id = "email-error"></spam>
-                                <input type = "email" required name = "logemail" class = "form-style" style = "margin-bottom: 20px"off" id = "logemail">
-                                <i class = "input-icon"></i>
-                            </h5>
-                        </div>
+</head>
 
 
-                        <!-- The next div is for Password typing :)-->
-                        <div class = "form-group">
-                            <h5 class = "input-placeholder" id = "password-txt">
-                                Email<spam class = "error-message" id = "password-error"></spam>
-                                <input type = "password" required name = "logpass" class = "form-style" style = "margin-bottom: 20px"off" id = "logpass">
-                                <i class = "input-icon"></i>
-                            </h5>
-                        </div>
+<div class = "grey-big-box">
+    <p class = "go-back"> &lt Go Back</p>
+    <p class = "welcome-back-heading"> Welcome back!</p>
+    <p class = "we-excited-text">We're excited to see you again!</p>
+
+       <!-- For entering Username -->
+       <div class = "entering-username">
+               <label for = "Username"> Username: </label>
+            <br>
+               <input type = "text" id = "Username">
+       </div>
 
 
+       <br>
+       <br>
 
 
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
+       <!-- For entering Password -->
+       <div class = "entering-username">
+               <label for = "Password"> Password: </label>
+            <br>
+               <input type = "text" id = "Password">
+       </div>
 
 
-</body>
+       <!-- For 'Forgot your password?'-->
+       <nav class = "forgot-password">
+        <a href = "https://linktr.ee/tripathi.yash"> Forgot your Password?</a>
+       </nav>
 
-  <script src="index.js"></script>
+       <br>
+       <br>
+
+       <!-- Login Button -->
+       <button class = "login-button"> Log In</button>
+       <!-- need and accound register section -->
+       <p> Need and account? <a  href = "https://linktr.ee/tripathi.yash"> Register </a> </p>
+
+
+       <!--'Login with QR code' SECTIONNNNNNNNNN -->
+       <!-- This is the right side of the BIG GREY BOX -->
+
+       <img src = "#link" alt = "QR Code"> 
+       <br> 
+       
+
+       <p class = "login-with-qr-code"> Login with QR Code</p>
+
+       <p> Scan this with the Discord mobile <br> app to Login instantly.</p>
+
+</div>
+
+  <!--<img src = "https://techcrunch.com/wp-content/uploads/2021/05/Discord_IAP_KeyVisuals_Header_02.jpeg?w=1024" alt = "Discord Login Page Background" width = "100%" height = "100%"> -->
 </html>
