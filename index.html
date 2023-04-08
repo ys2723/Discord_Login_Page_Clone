@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
+<body>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,6 @@
     <title>Discord Login Clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <div class = "grey-big-box">
 
 <!-- LEFT SECTION ---------------------------------------------------------------------------------------------------------- also LEFT SECTION hehe -->
@@ -20,7 +19,7 @@
 
        <!-- For entering Email of PHone Number -->
        <div class = "entering-email-or-phone-number">
-               <label for = "Username"> EMAIL OR PHONE NUMBER <nobr class = "red-ash">*</nobr> </label>
+ <label for = "Username"> EMAIL OR PHONE NUMBER <nobr class = "red-ash">*</nobr> </label>
             <br>
                <input type = "text" id = "Username" class = "input-email-or-phone-number">
        </div>
@@ -40,7 +39,7 @@
 
        <!-- For 'Forgot your password?'-->
        <nav class = "forgot-password">
-        <a href = "https://linktr.ee/tripathi.yash" style="color: #5865f2"> Forgot your Password?</a>
+        <a href = "https://linktr.ee/tripathi.yash" style="color: #5865f2" class= "link"> Forgot your Password?</a>
        </nav>
 
        <br>
@@ -49,7 +48,7 @@
        <!-- Login Button -->
        <button class = "login-button"> Log In</button>
        <!-- need and accound register section -->
-       <p class = "need-an-account"> Need an account? <a  href = "https://linktr.ee/tripathi.yash" style="color: #5865f2"> Register </a> </p>
+       <p class = "need-an-account"> Need an account? <a  href = "https://linktr.ee/tripathi.yash" style="color: #5865f2" class="reg"> Register </a> </p>
 
        
        
@@ -57,18 +56,21 @@
 
        
        <!--'Login with QR code' SECTIONNNNNNNNNN -->
-       <!-- This is the right side of the BIG GREY BOX -->
+       <!-- This is the right side of the BIG GREY BOX --><div class="qr">
        <section class = "right-section">
        <img class = "image"
             src = "https://cdn.discordapp.com/attachments/806881514389766184/1093240273129185370/qrcode_55216448_699475e2f9f5ddbc7c72df8b2dbf7f23.png" 
             alt = "QR Code"> 
        <br> 
-       
+       <div class = "log">
        <p class = "login-with-qr-code"> Login with QR Code</p>
 
-       <p class = "scan-to-login-text"> Scan this with the <b>Discord mobile </b> <br> <b>app</b> to Login instantly.</p>
+       <p class = "scan-to-login-text"> Scan this with the <b>Discord mobile</b><b>app</b> to Login instantly.</p>
+         </div>
+         </div>
        </section>
 </div>
 <!-- For Link, will be activated soon-->
   <!--<img src = "https://techcrunch.com/wp-content/uploads/2021/05/Discord_IAP_KeyVisuals_Header_02.jpeg?w=1024" alt = "Discord Login Page Background" width = "100%" height = "100%"> -->
+  </body>
 </html>
