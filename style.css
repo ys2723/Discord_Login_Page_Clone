@@ -1,59 +1,80 @@
-/* All classes are in order of appearance in the HTML code */
-
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
 .grey-big-box {
     background-color: #36393e;
-    border-radius: 5px;
+    border-radius: 7px;
     align-self: center;
     margin: auto;
     width: 785px;
     height: 450px;
     margin: 150px 440px 100px 370px;
-    font-family: uni 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
-
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    background-image: url("https://cdn.wallpapersafari.com/4/61/ypDTNV.jpg");
 }
 
 .go-back {
     color: aliceblue;
     margin-left: 30px;
+    padding-top: 30px;
 }
 
 .welcome-back-heading {
     color: aliceblue;
     margin-left: 160px;
     font-size: 25px;
+    margin-bottom: 5px;
 }
 
 .we-excited-text {
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.495);
     margin-left: 135px;
-    font-size: 17px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.entering-email-or-phone-number{
+    color: aliceblue;
+    font-size: 12px;
+    margin-left: 30px; 
+    margin-bottom: 5px; 
+    
 }
 
 .red-ash{
     color: red;
 }
 
-.entering-email-or-phone-number{
-    color: aliceblue;
-    font-size: 15px;
-    margin-left: 30px;
-}
 
 .input-email-or-phone-number{
     width: 420px;
-    height: 30px;
+    height: 40px;
     background-color: #282b30;
+    padding: 0%;
+    border: 0cm;
+    margin-left: 30px;
 }
 
  .entering-password{ 
     color: aliceblue;
     margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    
 }
 
 .input-password{
     width: 420px;
-    height: 30px;
+    height: 40px;
     background-color: #282b30;
+    padding: 0%;
+    border: 0cm;
+    margin-left: 30px;
+}
+
+.forgot-password{
+    margin-left: 30px;
+    margin-top: 7px;
 }
 
 .login-button{
@@ -61,16 +82,15 @@
     height: 45px;
     margin-left: 30px;
     background-color: #5865f2;
-}
-
-.forgot-password{
-    margin-left: 30px;
+    padding: 0%;
+    border: 0cm;
+    margin-top: 7px;
 }
 
 .need-an-account{
     margin-left: 30px;
-    color: rgba(240, 248, 255, 0.733);
-
+    color: rgba(240, 248, 255, 0.495);
+    font-size: 11px;
 }
 
 .right-section{
@@ -81,7 +101,14 @@
 
 .login-with-qr-code{
     font-size: 25px;
-    
+    margin-bottom: 10px;
+}
+
+.scan-to-login-text{
+    font-size: 17px;
+    color: rgba(240, 248, 255, 0.495);
+    margin-left: -15px;
+    margin-top: 11px;
 }
 
 .image{
@@ -89,9 +116,4 @@
     height: 170px;
     border-radius: 5px;
     margin-left: 20px;
-}
-
-.scan-to-login-text{
-    font-size: 17px;
-    color: rgba(240, 248, 255, 0.733);
 }
