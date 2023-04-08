@@ -1,5 +1,5 @@
 /* All classes are in order of appearance in the HTML code */
-
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;600&family=Lato:wght@700&family=Quattrocento+Sans&display=swap');
 .grey-big-box {
     background-color: #36393e;
     border-radius: 5px;
@@ -8,10 +8,14 @@
     width: 785px;
     height: 450px;
     margin: 150px 440px 100px 370px;
-    font-family: uni 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
-
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
-
+body{
+font-family: 'Cabin', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif;
+}
 .go-back {
     color: aliceblue;
     margin-left: 30px;
@@ -38,22 +42,37 @@
     font-size: 15px;
     margin-left: 30px;
 }
-
+.etext{
+  margin-bottom: 1px;
+}
+.entering-email-or-phone-number label{
+  font-size: 15px;
+}
 .input-email-or-phone-number{
     width: 420px;
     height: 30px;
     background-color: #282b30;
+    border: 0px;
+    margin: 0px;
+  border-radius:5px;
 }
-
+body{
+  background-image: url("https://i.redd.it/t7b5j2cqpce21.png");
+}
  .entering-password{ 
     color: aliceblue;
     margin-left: 30px;
 }
-
+.entering-password label{
+  font-size: 15px
+}
 .input-password{
     width: 420px;
     height: 30px;
     background-color: #282b30;
+    border: 0px;
+    margin: 0px;
+  border-radius:5px;
 }
 
 .login-button{
@@ -61,34 +80,45 @@
     height: 45px;
     margin-left: 30px;
     background-color: #5865f2;
+    border:0px;
+    border-radius:5px;
 }
 
 .forgot-password{
     margin-left: 30px;
+margin-top: 5px;
 }
-
+.link{
+  text-decoration: none;
+}
 .need-an-account{
     margin-left: 30px;
     color: rgba(240, 248, 255, 0.733);
-
 }
-
+.reg{
+    text-decoration: none;
+}
 .right-section{
     color: aliceblue;
     margin-top: -340px;
     margin-left: 530px;
 }
-
+.qr{
+  text-align: center;
+  margin-right: 5px;
+}
+.log{
+  text-align:center;
+  width:100%;
+}
 .login-with-qr-code{
-    font-size: 25px;
-    
+    font-size: 25px;  
 }
 
 .image{
     width: 170px;
     height: 170px;
     border-radius: 5px;
-    margin-left: 20px;
 }
 
 .scan-to-login-text{
