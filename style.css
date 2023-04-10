@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+
 .grey-big-box {
     background-color: #36393e;
     border-radius: 7px;
     align-self: center;
-    margin: auto;
     width: 785px;
     height: 450px;
-    margin: 150px 440px 100px 370px;
+    /* The next four lines will help in making the site responsive. Btw today's date is 10 April 2023. Time: 1002 hrs. */
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    transform: translateX(-50%);
     font-family: 'Cabin', sans-serif;
 }
+
 body{
     background-image: url("https://cdn.wallpapersafari.com/4/61/ypDTNV.jpg");
 }
@@ -16,7 +21,7 @@ body{
 .go-back {
     color: aliceblue;
     margin-left: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .welcome-back-heading {
@@ -45,7 +50,6 @@ body{
     color: red;
 }
 
-
 .input-email-or-phone-number{
     width: 420px;
     height: 40px;
@@ -60,7 +64,6 @@ body{
     margin-left: 30px;
     font-size: 12px;
     margin-bottom: 5px;
-    
 }
 
 .input-password{
